@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 300px 500px 300px;
+    grid-gap: 1em;
+    justify-items: center;
+    align-items: center;
+}
+
+.myForm{
+    border: 2px dashed;
+    border-radius: 15px;
+    min-height: 400px;
+    height: auto;
+    width: 250px;
+    margin: 20px;
+}
+
+#myDrop{
+    height: auto;
+    width: auto;
+    border-radius: 0px 0px 15px 15px;
+    justify-content: center;
+    text-align: center;
+}
+
+#submitAll{
+    margin-left: 20px;
+}
+
+li{
+    list-style-type: none;
+    text-align: center;
+    align-items: left;
+    justify-content: center;
+}
+
+.imagePreviewDiv{
+    display: block;
+    margin: 10px;
+}
+
+
+.imagePreview{
+    margin: 5px;
+    width: 150px;
+    height: 150px;
+}
+
+.imageDescription{
+    width: 150px;
+    border-radius: 5px;
+    text-align: center;
+    height: auto;
+}
+
+.img-tumbnail{
+    border-radius: 15px;
+}

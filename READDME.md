@@ -1,0 +1,1 @@
+# Messing arround with the library dropzone.js
